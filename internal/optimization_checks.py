@@ -62,6 +62,8 @@ class OptimizationChecks(object):
         self.cdn_cnames = {
             'Advanced Hosters CDN': ['.pix-cdn.org'],
             'afxcdn.net': ['.afxcdn.net'],
+            'IzHost CDN': ['.hostedcdn.net',
+                           '.izhost.com',
             'Akamai': ['.akamai.net',
                        '.akamaized.net',
                        '.akamaiedge.net',
